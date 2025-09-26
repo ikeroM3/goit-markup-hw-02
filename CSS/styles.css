@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  background-color: #fcfcfc;
+}
+.list-navigation {
+  color: #2e2f42;
+}
+.list-address a {
+  color: #2e2f42;
+}
+a {
+  text-decoration: none;
+}
+
+.list-address a:hover,
+.list-address a:focus {
+  color: #404bbf;
+}
+
+.bth {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+.bth:hover,
+.bth:focus {
+  background-color: #404bbf;
+}
