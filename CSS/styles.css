@@ -69,3 +69,6 @@ a {
 .title-paragraph {
   text-align: center;
 }
+.card-portfolio > ul {
+  list-style-type: none;
+}
