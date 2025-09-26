@@ -1,14 +1,24 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.5;
   color: #434455;
   background-color: #fcfcfc;
 }
+.title {
+  color: #ffffff;
+}
+.list-address li {
+  list-style-type: none;
+}
+.list-contacts {
+  list-style-type: none;
+}
 .list-navigation {
   color: #2e2f42;
 }
-.list-address a {
+.list-address li a {
   color: #2e2f42;
 }
 a {
@@ -24,8 +34,23 @@ a {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  text-align: left;
+  border: none;
 }
 .bth:hover,
 .bth:focus {
   background-color: #404bbf;
+}
+.paragraph li {
+  list-style-type: none;
+}
+.card-people li {
+  list-style-type: none;
+}
+.card-portfolio li {
+  list-style-type: none;
+}
+.figura {
+  background-color: #2e2f42;
+  text-align: center;
 }
