@@ -9,10 +9,13 @@ body {
 .title {
   color: #ffffff;
 }
-.list-address li {
+.list-address {
   list-style-type: none;
 }
-.list-contacts {
+.list-contacts a {
+  color: #434455;
+}
+.list-contacts li {
   list-style-type: none;
 }
 .list-navigation {
@@ -44,13 +47,20 @@ a {
 .paragraph li {
   list-style-type: none;
 }
-.card-people li {
-  list-style-type: none;
-}
-.card-portfolio li {
+
+.card-portfolio {
   list-style-type: none;
 }
 .figura {
   background-color: #2e2f42;
+  text-align: center;
+}
+.card-people li {
+  list-style-type: none;
+}
+.card-people {
+  background-color: #f4f4fd;
+}
+.title-card {
   text-align: center;
 }
