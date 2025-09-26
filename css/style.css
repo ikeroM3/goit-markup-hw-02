@@ -22,6 +22,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 .list-contacts {
   list-style-type: none;
@@ -33,11 +34,15 @@ body {
 .address {
   font-style: normal;
 }
+.address li {
+  list-style-type: none;
+}
 .list-address > li > a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 .list-address > li > a:hover,
 .list-address > li > a:focus {
@@ -73,13 +78,22 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.paragraph li {
+  list-style-type: none;
+}
 .paragraph-one {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.card-portfolio li {
+  list-style-type: none;
+}
 .card-people {
   background-color: #f4f4fd;
+}
+.card-people li {
+  list-style-type: none;
 }
 .title-card {
   font-size: 36px;
