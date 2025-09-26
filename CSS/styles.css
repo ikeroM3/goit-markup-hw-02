@@ -26,6 +26,7 @@ body {
 }
 a {
   text-decoration: none;
+  font-style: normal;
 }
 
 .list-address a:hover,
@@ -62,5 +63,9 @@ a {
   background-color: #f4f4fd;
 }
 .title-card {
+  text-align: center;
+  color: #2e2f42;
+}
+.title-paragraph {
   text-align: center;
 }
